@@ -1,0 +1,4 @@
+/       /signup     200
+/login  /home       200
+/signup /home       200
+/*    /index.html   200
