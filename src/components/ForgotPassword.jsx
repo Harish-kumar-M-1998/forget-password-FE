@@ -13,7 +13,7 @@ const ForgotPassword = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     
-    Axios.post('http://localhost:3000/auth/forgot-password', { email })
+    Axios.post('https://forget-password-be.onrender.com/auth/forgot-password', { email })
       .then(response => {
         if (response.data.status) { 
           // Notify user about the password reset email
